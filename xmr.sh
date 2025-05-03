@@ -1,10 +1,9 @@
 #! /bin/bash
 
-sudo apt update
-clear
-sudo apt install screen
-screen -R xmr
- 
+echo "xmrigCC-3.3.3"
+echo "GasS"
+sleep 3 
+cd 
 wget https://github.com/Bendr0id/xmrigCC/releases/download/3.3.3/xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz && tar -xvf xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz && cd miner && mv xmrigDaemon ~/ && mv xmrigMiner ~/
 cd && clear
 echo "====================================="
